@@ -13,6 +13,6 @@ gulp.task('styles', function() {
             console.log(errorInfo.toString); 
             this.emit('end');
         })
-        .pipe(gulp.dest('./app/temp/styles')
+        .pipe(gulp.dest('./app/temp/styles/')
     );
 });
