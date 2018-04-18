@@ -10,14 +10,14 @@
     }
 
     @mixin atMedium {
-        background-color:rgba($mainBlue,0.3); 
+        background-color:rgba($mainBlue, 0.3); 
     }
 
     &__btn-container {
         @mixin atMedium {
             float:right;
         }
-    }
+    } 
 
     &__logo {
         position: absolute;
@@ -120,6 +120,7 @@
         @mixin atMedium {
             display: block;
             padding-top:0;
+            opacity:1.0;
             transform:scale(1.0);
         }
 
